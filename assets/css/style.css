@@ -23,11 +23,9 @@ header{
   display: grid;
   align-items: center;
   text-align: center;
-  /*padding-left: 3.33%;*/
+  column-gap: 1rem;
   padding-left: 2rem;
   padding-right: 4.5rem;
-  /*padding: 0 2rem 0 2rem;*/
-  /*max-width: 1440px;*/
   grid-template-columns: 0.5fr 3fr 0.5fr 0.5fr 0.5fr;
   grid-template-areas: "titre . heber act inscrire";
 }
@@ -66,9 +64,6 @@ font-weight: bold;
 color: #0065fc;
 padding: 2.1rem;
 align-items: center;
-}
-.texte h2{                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          
-	font-weight: 700;
 }
 img {
 	width: 100%;
@@ -141,7 +136,7 @@ img {
 	border-radius: 100%;
 }
 .icon2 i{
-	color: #0065fc;
+    color: #0065fc;
 }
 .filtre p {
 	margin: 0 0.75rem;
@@ -166,7 +161,8 @@ img {
 	border-radius: 100%;
 }
 .icon3 i{
-	color: #0065fc;
+    color: #0065fc;
+    font-size: 0.75rem;
 }
 .section1{
     display: grid;
