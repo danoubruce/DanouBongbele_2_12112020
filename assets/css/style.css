@@ -283,3 +283,94 @@ a {
     font-size: 0.75rem;
     letter-spacing: 2px;
 }
+.partie3{
+    display: grid;
+    grid-gap: 2.6rem;
+	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-areas:"vport boite1 pnc boite2" ;
+}
+.fpro{
+    max-height: 14.75rem;
+}
+.ifri{
+    max-height: 10.31rem;
+}
+.ndlg{
+    max-height: 12.18rem;
+}
+.plong{
+	max-height: 13.125rem;
+}
+.fpro-img img{
+    max-height: 11.25rem;
+    border-radius: 0.75rem 0.75rem 0 0;
+    object-fit: cover;
+    box-sizing: border-box;
+}
+.vport-img img,.pnc-img img{
+	height: 24.4rem;
+	object-fit: cover;
+	box-sizing: border-box;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+.ifri-img img{
+    height: 6.875rem;
+	object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+.ndlg-img img{
+    height: 8.75rem;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+.plong-img img{
+    height: 9.68rem;
+    object-fit: cover;
+    border-radius: 0.75rem 0.75rem 0 0;
+}
+.vport{
+	grid-area: vport;
+	max-height: 27.875rem;
+}
+.pnc{
+	grid-area: pnc;
+	max-height: 27.875rem;
+}
+
+.boite1{
+	height: 100%;
+	max-height: 27.875rem;
+    grid-area: boite1;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 2.4rem;
+}
+.boite2{
+	height: 100%;
+	max-height: 27.875rem;
+    grid-area: boite2;
+	display: grid;
+	grid-template-columns: 1fr;
+	row-gap: 2.2rem;
+}
+.vport,.pnc,.plong,.ifri,.ndlg,.fpro{
+    border-radius: 1rem;
+    box-shadow: 2px 2px 6px #f2f2f2;
+    cursor: pointer;
+    box-sizing: border-box;
+	height: auto;
+}
+.first{
+	padding: 0 0 2rem 1.5rem;
+	color: black;
+	vertical-align: middle;
+}
+.vport a,.pnc a,.plong a,.ifri a,.ndlg a,.fpro a{
+	text-decoration: none;
+}
+
+  .actmar{
+    grid-column: 1/-1;
+	padding-top: 4.3rem;
+	padding-bottom: 1.5rem;
+}
