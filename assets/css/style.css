@@ -4,20 +4,12 @@ html {
 	overflow-x: hidden;
 }
 body {
-	margin: 0;
-	box-sizing: border-box;
-}
-hr{
-	display: none;
-}
-main {
 	margin: auto;
-	padding: 0 3rem 3.5rem 3rem;
 	box-sizing: border-box;
 }
-h2{
-    font-size: 1.4rem;
-}
+/*---------------------------------------------------*/
+/*------------------HEADER---------------------------*/
+/*---------------------------------------------------*/
 header{
   display: grid;
   align-items: center;
@@ -63,6 +55,20 @@ font-weight: bold;
 color: #0065fc;
 padding: 2.1rem;
 align-items: center;
+}
+/*---------------------------------------------------*/
+/*------------------#SECTION1------------------------*/
+/*---------------------------------------------------*/
+hr{
+	display: none;
+}
+main {
+	margin: auto;
+	padding: 0 3rem 3.5rem 3rem;
+	box-sizing: border-box;
+}
+h2{
+    font-size: 1.4rem;
 }
 img {
 	width: 100%;
@@ -167,6 +173,9 @@ img {
     color: #0065fc;
     font-size: 0.75rem;
 }
+/*---------------------------------------------------*/
+/*------------------.SECTION1------------------------*/
+/*---------------------------------------------------*/
 .section1{
     display: grid;
     column-gap: 2.5rem;
@@ -180,7 +189,7 @@ img {
     display: grid;
     grid-gap: 2rem;
     background-color: #f2f2f2;
-	grid-template-columns: 1fr 1fr 1fr ;
+	grid-template-columns: repeat(3, 1fr) ;
 	grid-template-rows: 4rem 1fr 1fr 4.8rem;
 	border-radius: 1rem;
 	padding: 0 2rem 2rem 2rem;
@@ -282,10 +291,13 @@ a {
     font-size: 0.75rem;
     letter-spacing: 2px;
 }
+/*---------------------------------------------------*/
+/*------------------.SECTION2------------------------*/
+/*---------------------------------------------------*/
 .partie3{
     display: grid;
     grid-gap: 2.6rem;
-	grid-template-columns: 1fr 1fr 1fr 1fr;
+	grid-template-columns: repeat(4, 1fr);
 	grid-template-areas:"vport boite1 pnc boite2" ;
 }
 .fpro{
@@ -373,6 +385,9 @@ a {
 	padding-top: 4.3rem;
 	padding-bottom: 1.5rem;
 }
+/*---------------------------------------------------*/
+/*------------------FOOTER---------------------------*/
+/*---------------------------------------------------*/
 footer{
     background-color: #f2f2f2;
     display: flex;
@@ -407,6 +422,9 @@ footer{
     color: #f2f2f2;
     font-size: 0.75rem;
 }
+/*---------------------------------------------------*/
+/*------------------RESPONSIVE-----------------------*/
+/*---------------------------------------------------*/
 @media screen and (min-width:1257px) {
     #recherche{
 		display: block;
@@ -469,8 +487,8 @@ footer{
 	.partie2{
 		grid-template-columns: 1fr;
 		grid-template-rows: auto;
-		column-gap: 2rem;
 		grid-row-start: 1;
+		row-gap: 15px;
 	}
 	.partie2a{
 		grid-column: 1/-1;
@@ -498,8 +516,11 @@ footer{
 }
 @media screen and (max-width: 669px) {
 	body{
-		max-width: 100%;
+		width: 100%;
 		margin: auto;
+	}
+	h2{
+		font-size: 1.5rem;
 	}
 	
 	hr {
@@ -557,7 +578,7 @@ footer{
 	}
 	#section1{
 		padding-left: 20px;
-		margin-right: 20px;
+		padding-right: 20px;
 		width: 100%;
 		margin: auto;
 	}
@@ -589,6 +610,7 @@ footer{
 	}
 	.logement{
 		margin-bottom: 0;
+		margin-right: 20px;
 	}
 	.section1 {
 		grid-template-columns: 1fr;
@@ -670,6 +692,9 @@ footer{
 		font-size: 1.15rem;
 	}
 }
+/*---------------------------------------------------*/
+/*------------------MERCI----------------------------*/
+/*---------------------------------------------------*/
 
 
 
