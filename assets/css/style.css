@@ -149,7 +149,7 @@ img {
 	font-weight: bold;
 }
 .filtre:hover{
-	box-shadow: 0 0 10px red;
+	box-shadow: 0 0 10px #0065fc;
 }
 .logement {
 	display: flex;
