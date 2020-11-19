@@ -60,7 +60,7 @@ header .inscrire{
         align-items: center;
 }
 /*---------------------------------------------------*/
-/*------------------#SECTION1------------------------*/
+/*------------------SECTION1------------------------*/
 /*---------------------------------------------------*/
 hr{
 	display: none;
@@ -177,7 +177,7 @@ img {
         font-size: 0.75rem;
 }
 /*---------------------------------------------------*/
-/*------------------.SECTION1------------------------*/
+/*------------------SECTION2------------------------*/
 /*---------------------------------------------------*/
 .section2{
         display: grid;
@@ -295,7 +295,7 @@ a {
         letter-spacing: 2px;
 }
 /*---------------------------------------------------*/
-/*------------------.SECTION2------------------------*/
+/*------------------SECTION3------------------------*/
 /*---------------------------------------------------*/
 .partie3{
         display: grid;
@@ -448,7 +448,7 @@ footer{
 	.bouton i{
 		display: none;
 	}
-	.section1 {
+	.section2 {
 		grid-template-columns: 1fr;
 		grid-template-rows:20rem ;
 		grid-template-areas:"partie2"
@@ -486,7 +486,7 @@ footer{
 		display: none;
 	}
 	
-	.section1 {
+	.section2 {
 		grid-template-columns: 1fr;
 		grid-template-areas:"partie2"
 		                    "partie1"; 
@@ -584,7 +584,7 @@ footer{
 		margin: 0;
 		padding: 0;
 	}
-	#section1{
+	.section1{
 		padding-left: 20px;
 		padding-right: 20px;
 		width: 100%;
@@ -620,7 +620,7 @@ footer{
 		margin-bottom: 0;
 		margin-right: 20px;
 	}
-	.section1 {
+	.section2 {
 		grid-template-columns: 1fr;
 		grid-template-areas:"partie2"
 		                    "partie1"; 
@@ -651,7 +651,7 @@ footer{
 	.mini{
 		height: 200px;
 	}
-	.section2{
+	.section3{
 		width: 90%;
 		margin: auto;
 	}
