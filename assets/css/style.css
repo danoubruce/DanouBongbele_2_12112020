@@ -651,10 +651,6 @@ footer{
 	.mini{
 		height: 200px;
 	}
-	.section3{
-		width: 90%;
-		margin: auto;
-	}
 	.actmar{
 		grid-column: 1/-1;
 		padding-top: 0;
