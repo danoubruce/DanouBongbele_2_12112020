@@ -209,7 +209,7 @@ img {
 	max-height: 12.56rem;
 }
 .mini-img img{
-	height: 7rem;
+	height: 6.8rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
 }
