@@ -209,7 +209,7 @@ img {
 	max-height: 12.56rem;
 }
 .mini-img img{
-	height: 6.8rem;
+	height: 7rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
 }
@@ -219,7 +219,7 @@ a {
 }
 .content{
 	line-height: 0.2rem;
-	margin: 0.625rem 0.625rem 1.5rem 0.625rem;
+	margin: 0 0 1.5rem 0.625rem;
 }
 .content p{
 	font-size: 0.85rem;
