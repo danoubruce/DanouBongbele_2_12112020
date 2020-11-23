@@ -79,6 +79,7 @@ img {
 }
 .nature {
 	margin-top: 0.5rem;
+	margin-right: 3%;
 }
 .formulaire {
 	display: flex;
@@ -160,7 +161,7 @@ img {
 .logement {
 	display: flex;
 	align-items: center;
-	margin: 0.5rem 0 2rem 0;
+	margin: 0.5rem 0 1.4rem 0;
 }
 .icon3 {
 	display: flex;
@@ -208,7 +209,7 @@ img {
 	max-height: 12.56rem;
 }
 .mini-img img{
-	height: 6.8rem;
+	height: 7rem;
         object-fit: cover;
         border-radius: 1rem 1rem 0 0;
 }
@@ -607,11 +608,15 @@ footer{
 		padding-left: 16px;
 		font-weight: 300;	
 	}
+	.texte{
+		margin-right: 10%;
+		padding-top: 0.8rem;
+	}
 	.filtre-p{
 		font-size: 1rem;
 	}
 	.pfiltre{
-		margin: 0 2rem 1.5rem 0;
+		margin: 0 2rem 1rem 0;
 	}
 	#heber{
 		margin: 0;
@@ -675,18 +680,16 @@ footer{
 	.first{
 		margin-top: 15px;
 	}
-	.mini.vport,.pnc,.plong,.ifri,.ndlg,.fpro{
+	.vport,.pnc,.plong,.ifri,.ndlg,.fpro{
 		max-height: 11.875rem;
-	}
-	.vport{
-		margin-bottom: -1.25rem;
+		min-height: 11.875rem;
 	}
 	.vport-img img,.pnc-img img,.plong-img img,.ifri-img img,.ndlg-img img,.fpro-img img{
 		height: 8.5rem;
 	}
 	footer{
-        flex-direction: column;
-        justify-content: space-evenly;
+                flex-direction: column;
+                justify-content: space-evenly;
 		align-items: flex-start;
 		height: 100%;
 		padding-bottom: 1.875rem;
